@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi sitio CV</title>
+        <link href="css/css-gg.css" rel="stylesheet" /><!--Todos los estilos-->
+        <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <script src="js/site.js"></script>
+    </head>
+    <body>
+        <div class="main-content">
+            <aside>
+                <div class="profile"> 
+                    <img src="resources/PERFIL.jpg" id="photo-profile" class="my-photo"/>
+                    <div>
+                        <h1 class="title">YAIR GONZALEZ CABA</h1>
+                        <div class="badge-porfile">IGN. EN DESARROLLO DE SOFTWARE</div>
+                        <div class="social">
+                            <a href="facebook.com" target="_blank" class="gg-facebook"></a>
+                            <a href="twitter.com" target="_blank" class="gg-twitter"></a>
+                            <a href="youtube.com" target="_blank" class="gg-youtube"></a>
+                            <a href="pokemon-go.com" target="_blank" class="gg-pokemon"></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <ul class="contacts-block">
+                            <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;23 de Enero del 2025</li>
+                            <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;Puebla, Puebla</li>
+                            <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;&nbsp;<a href="mailto:erenyeager070@gmail.com">&nbsp;&nbsp;yaircaba123@gmail.com</a></li>
+                            <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52 22 11 84 77 85</li>
+                            <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;<a href="skype:">&nbsp;&nbsp;Skype:Yair_Caba</a></li>
+                        </ul>
+                        <a  class="btn" href="resources/Elegant_CV_Yair_Gonzalez_Caba.pdf">Descargar CV</a>
+                    </div>
+                </div>
+            </aside>
+            <section class="resume">
+
+                <h2 class="title bordered"> Portfolio</h2>
+                <div class="portfolio">
+                    <img src="resources/certificado.jpg" onclick="showImage(this)">
+                    <img src="resources/certificado2.jpg" onclick="showImage(this)">
+                    <img src="resources/tsu.jpg" onclick="showImage(this)">
+                    
+                    
+                    <div class="modal" id="preview" onclick="cerrarModal()">
+                        <i class="close-icon" onclick="cerrarModal()">✖</i>                
+                    </div>
+                </div>
+                <header>
+                    <div class="menu-circle">
+                        <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                    </div>
+                    <div class="inner-menu js-menu">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="index.html">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="portfolio.html">Portafolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+            
+            </section>
+        </div>
+        <footer>Autor: YAIR GONZALEZ CABA</footer>
+    </body>
+</html>
